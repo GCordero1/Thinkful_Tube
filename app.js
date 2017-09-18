@@ -18,6 +18,8 @@ $('#search-btn').click(function() {
 
   $(".js-search-form").submit(function(e){
     e.preventDefault();
+    $(".js-search-results").html("");
+    $(".js-query").html("");
   });
 });
 
